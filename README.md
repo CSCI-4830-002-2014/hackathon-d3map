@@ -1,10 +1,11 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Josh Ferge](www.github.com/JoshFerge) 
+* [Alexia Newgord](www.github.com/alne4294)
+* [Chris Wittenberg](www.github.com/cwitty1919)
+* [Nikita Voskoboynik](www.github.com/nikitavoskoboynik)
+* [Justin McBride](www.github.com/dare599z)
+* [Daniel Nolan](www.github.com/dano8957)
 
 # Objective 1. Warmup
 
