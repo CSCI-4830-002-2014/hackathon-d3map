@@ -44,7 +44,7 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 3
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Michael Fyk
 
 {{ brief description }}
 
