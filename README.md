@@ -21,13 +21,13 @@
 
 ## Feature 1
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Chris Wittenberg	
 
-{{ brief description }}
+If the business is good for kids, it has a yellow circle in the middle.
 
-![screenshot](screenshot.png)
+![screenshot](Nevada.png)
 
-![screenshot](screenshot.png)
+![screenshot](Arizona.png)
 
 ![screenshot](screenshot.png)
 

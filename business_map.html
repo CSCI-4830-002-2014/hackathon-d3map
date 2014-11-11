@@ -210,6 +210,17 @@
               }else{
               }
                 })
+
+            marker.append("svg:circle")
+            .attr("r", function(d) { if (d.attributes["Good For Kids"] == true){
+              return linearScale(d.review_count) / 2;
+            }else{
+
+            }
+              return 0;})
+            .attr("cx", 10)
+            .attr("cy", 10)
+            .attr("fill", "yellow")
             
         // For each marker, apply a function
         marker.each(function (d){
