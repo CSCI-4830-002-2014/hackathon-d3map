@@ -33,7 +33,7 @@ If the business is good for kids, it has a yellow circle in the middle.
 
 ## Feature 2
 
-Implemented by: {{ Alexia and Daniel }}
+Implemented by: Alexia and Daniel
 
 Note: We partnered on this because Daniel's node isn't working.
 
