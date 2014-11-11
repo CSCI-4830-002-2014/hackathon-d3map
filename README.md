@@ -20,15 +20,15 @@
 
 ## Feature 1
 
-Implemented by: Ian
+Implemented by: {{ name-of-a-team-member }}
 
-Query the restaurants by their rating in stars.
+{{ brief description }}
 
-![screenshot](https://www.dropbox.com/s/w8tona76jpy9xfg/Screenshot%202014-11-10%2019.47.03.png?dl=1)
+![screenshot](screenshot.png)
 
-![screenshot](https://www.dropbox.com/s/zyckxqbc866y53t/Screenshot%202014-11-10%2019.48.06.png?dl=1)
+![screenshot](screenshot.png)
 
-![screenshot](https://www.dropbox.com/s/zph1taf26chwjr6/Screenshot%202014-11-10%2019.48.33.png?dl=1)
+![screenshot](screenshot.png)
 
 ## Feature 2
 
@@ -69,14 +69,10 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 5
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Adrian Chen
 
-{{ brief description }}
+This functionality turns the color of the dot green if the stars are above average and red if they are below average.
 
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
+![screenshot](adrian.png)
 
 
