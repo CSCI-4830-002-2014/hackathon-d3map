@@ -44,7 +44,7 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 3
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Michael Fyk
 
 {{ brief description }}
 
@@ -69,14 +69,10 @@ Show stars given by 10 reviews on mouseover instead of weird review id stuff.
 
 ## Feature 5
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Adrian Chen
 
-{{ brief description }}
+This functionality turns the color of the dot green if the stars are above average and red if they are below average.
 
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
+![screenshot](adrian.png)
 
 
