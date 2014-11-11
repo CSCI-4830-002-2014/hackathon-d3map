@@ -41,6 +41,10 @@ When you hover over a business, the html will show a graphical representation of
 
 ![Imgur](http://i.imgur.com/9O5RwjF.png?1)
 
+![Imgur](http://i.imgur.com/wrc9E2G.png)
+
+![Imgur](http://i.imgur.com/R9SmK2t.png)
+
 
 ## Feature 3
 
