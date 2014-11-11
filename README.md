@@ -14,7 +14,7 @@
 
 ## Review Count --> Size
 
-![screenshot](screenshot.png)
+![screenshot](sizeSS.png)
 
 # Objective 2. Customization
 
