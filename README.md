@@ -10,11 +10,11 @@
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/25s7ki62mtfeqdu/Screenshot%202014-11-10%2019.22.32.png?dl=1)
 
 ## Review Count --> Size
 
-![screenshot](screenshot.png)
+![screenshot](sizeSS.png)
 
 # Objective 2. Customization
 
@@ -44,7 +44,7 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 3
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Michael Fyk
 
 {{ brief description }}
 
@@ -69,14 +69,10 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 5
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Adrian Chen
 
-{{ brief description }}
+This functionality turns the color of the dot green if the stars are above average and red if they are below average.
 
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
-
-![screenshot](screenshot.png)
+![screenshot](adrian.png)
 
 

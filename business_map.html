@@ -195,11 +195,19 @@
 
         // Add a circle.
         marker.append("svg:circle")
-            .attr("r", 15)
+          .attr("r", 5)
             .attr("cx", circle_x)
             .attr("cy", circle_y)
-            .attr("fill", 'brown');
-            
+            .attr("fill", function(d){
+              if (d.stars >= 4)
+                return 'yellow';
+              else if (d.stars >= 3)
+                return 'blue';
+              else if (d.stars >= 2)
+                return 'purple';
+              else (d.stars >= 1)
+                return 'red';
+            });
         // For each marker, apply a function
         marker.each(function (d){
 
