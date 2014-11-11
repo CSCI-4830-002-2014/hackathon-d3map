@@ -44,5 +44,32 @@ app.get('/query/:param1/:param2', function(req, res) {
     });
 });
 
+app.get('/ian/:param1/:param2', function(req, res) {
+    var param1 = req.params.param1.toUpperCase();
+    var param2 = req.params.param2;
+    var query = {"state" : param1, "stars" : +param2};
+    var projection = {};
+    db.collection(process.env.BUSINESS)
+        .find(query,projection)
+        .sort( {review_count: -1 } )
+        .toArray(function (err, businesses) {
+
+            async.map(businesses,
+                function(business, callback){
+                    var query = {"business_id" : business.business_id};
+                    db.collection(process.env.REVIEW)
+                      .find(query)
+                      .toArray(function (err, reviews){
+                        business.reviews = reviews;
+                        callback(err, business);
+                      });
+                },
+                function(err, results){
+                  console.log(results);
+                  res.render("business_map", {data: results, param1: param1, param2: param2});
+            });
+    });
+});
+
 app.listen(3000);
 console.log('listening on port 3000');
