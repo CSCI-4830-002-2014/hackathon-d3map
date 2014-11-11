@@ -1,46 +1,50 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Josh Ferge](www.github.com/JoshFerge) 
+* [Alexia Newgord](www.github.com/alne4294)
+* [Chris Wittenberg](www.github.com/cwitty1919)
+* [Nikita Voskoboynik](www.github.com/nikitavoskoboynik)
+* [Justin McBride](www.github.com/dare599z)
+* [Daniel Nolan](www.github.com/dano8957)
 
 # Objective 1. Warmup
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](Part1.png)
 
 ## Review Count --> Size
 
-![screenshot](screenshot.png)
+![screenshot](Part1.png)
 
 # Objective 2. Customization
 
 ## Feature 1
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Chris Wittenberg	
 
-{{ brief description }}
+If the business is good for kids, it has a yellow circle in the middle.
 
-![screenshot](screenshot.png)
+![screenshot](Nevada.png)
 
-![screenshot](screenshot.png)
+![screenshot](Arizona.png)
 
 ![screenshot](screenshot.png)
 
 ## Feature 2
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Alexia and Daniel
 
-{{ brief description }}
+Note: We partnered on this because Daniel's node isn't working.
 
-![screenshot](screenshot.png)
+When you hover over a business, the html will show a graphical representation of the number of stars for that business.
 
-![screenshot](screenshot.png)
+![Imgur](http://i.imgur.com/9O5RwjF.png?1)
 
-![screenshot](screenshot.png)
+![Imgur](http://i.imgur.com/wrc9E2G.png)
+
+![Imgur](http://i.imgur.com/R9SmK2t.png)
+
 
 ## Feature 3
 

@@ -83,6 +83,10 @@
 
       var dataset = <%- JSON.stringify(data) %>;   
 
+      var linearScale = d3.scale.linear()
+                           .domain([0,10000])
+                           .range([0,50]);
+
       // Set the center location (lat/lng) to be the location of the first business                  
       var first = dataset[0];
       var centerLatLng = new google.maps.LatLng(first.latitude, first.longitude);
@@ -194,11 +198,29 @@
 
 
         // Add a circle.
-        marker.append("svg:circle")
-            .attr("r", 15)
-            .attr("cx", circle_x)
-            .attr("cy", circle_y)
-            .attr("fill", 'brown');
+       marker.append("svg:circle")
+            .attr("r", function(d) {return linearScale(d.review_count);})
+            .attr("cx", 10)
+            .attr("cy", 10)
+            .attr("fill", function(d) {   // <-- Down here!
+              if(d.stars >= 4){
+                  return "red";
+              }else if(d.stars >= 3){
+                return "brown";
+              }else{
+              }
+                })
+
+            marker.append("svg:circle")
+            .attr("r", function(d) { if (d.attributes["Good For Kids"] == true){
+              return linearScale(d.review_count) / 2;
+            }else{
+
+            }
+              return 0;})
+            .attr("cx", 10)
+            .attr("cy", 10)
+            .attr("fill", "yellow")
             
         // For each marker, apply a function
         marker.each(function (d){
