@@ -56,15 +56,15 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 4
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Brian Newsom
 
-{{ brief description }}
+Show stars given by 10 reviews on mouseover instead of weird review id stuff.
 
-![screenshot](screenshot.png)
+![screenshot](brian1.png)
 
-![screenshot](screenshot.png)
+![screenshot](brian2.png)
 
-![screenshot](screenshot.png)
+![screenshot](brian3.png)
 
 
 ## Feature 5
