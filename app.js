@@ -23,7 +23,7 @@ app.get('/query/:param1/:param2', function(req, res) {
     db.collection(process.env.BUSINESS)
         .find(query,projection)
         .sort( {review_count: -1 } )
-        .limit(10)
+        .limit(+param2)
         .toArray(function (err, businesses) {
 
             async.map(businesses,
