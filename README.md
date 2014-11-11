@@ -10,7 +10,7 @@
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/25s7ki62mtfeqdu/Screenshot%202014-11-10%2019.22.32.png?dl=1)
 
 ## Review Count --> Size
 
