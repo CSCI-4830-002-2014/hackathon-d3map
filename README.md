@@ -11,11 +11,11 @@
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](Part1.png)
 
 ## Review Count --> Size
 
-![screenshot](screenshot.png)
+![screenshot](Part1.png)
 
 # Objective 2. Customization
 
