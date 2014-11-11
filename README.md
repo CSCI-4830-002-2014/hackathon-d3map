@@ -39,7 +39,7 @@ Note: We partnered on this because Daniel's node isn't working.
 
 When you hover over a business, the html will show a graphical representation of the number of stars for that business.
 
-[Imgur](http://i.imgur.com/9O5RwjF.png?1)
+![Imgur](http://i.imgur.com/9O5RwjF.png?1)
 
 
 ## Feature 3
