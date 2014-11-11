@@ -33,15 +33,14 @@ If the business is good for kids, it has a yellow circle in the middle.
 
 ## Feature 2
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: {{ Alexia and Daniel }}
 
-{{ brief description }}
+Note: We partnered on this because Daniel's node isn't working.
 
-![screenshot](screenshot.png)
+When you hover over a business, the html will show a graphical representation of the number of stars for that business.
 
-![screenshot](screenshot.png)
+[Imgur](http://i.imgur.com/9O5RwjF.png?1)
 
-![screenshot](screenshot.png)
 
 ## Feature 3
 
