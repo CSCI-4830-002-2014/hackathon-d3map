@@ -10,7 +10,7 @@
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/25s7ki62mtfeqdu/Screenshot%202014-11-10%2019.22.32.png?dl=1)
 
 ## Review Count --> Size
 
@@ -20,15 +20,15 @@
 
 ## Feature 1
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Ian
 
-{{ brief description }}
+Query the restaurants by their rating in stars.
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/w8tona76jpy9xfg/Screenshot%202014-11-10%2019.47.03.png?dl=1)
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/zyckxqbc866y53t/Screenshot%202014-11-10%2019.48.06.png?dl=1)
 
-![screenshot](screenshot.png)
+![screenshot](https://www.dropbox.com/s/zph1taf26chwjr6/Screenshot%202014-11-10%2019.48.33.png?dl=1)
 
 ## Feature 2
 
