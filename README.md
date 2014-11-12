@@ -48,8 +48,8 @@ Implemented by: Michael Fyk
 
 Lost DB Connection: Added Code Files. Allows users to set params for min and max review count to filter the query.
 
-![screenshot](MikeFykapp.js)
-![screenshot](MikeFbusiness_map.html)
+[a link](MikeFykapp.js)
+[a link](MikeFbusiness_map.html)
 
 ## Feature 4
 
