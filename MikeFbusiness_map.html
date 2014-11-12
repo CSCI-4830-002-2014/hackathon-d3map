@@ -54,8 +54,10 @@
      <script>
         function submitQuery(){
             var param1 = document.getElementById('param1').value;            
-            var param2 = document.getElementById('param2').value;            
-            location = '/query/' + param1 + '/' + param2;
+            var param2 = document.getElementById('param2').value;   
+            var param3 = document.getElementById('param3').value;            
+            var param4 = document.getElementById('param').value;          
+            location = '/query/' + param1 + '/' + param2 + '/' + param3 + '/' + param4;
             return false;
         }
     </script>
@@ -74,6 +76,10 @@
         value="<%= param1 %>" autofocus /> <br>
       Param2: <input id="param2" class="form-control" type="text" maxlength="55" class="box" 
         value="<%= param2 %>" /> <br>
+        Min Review Count: <input id="param2" class="form-control" type="text" maxlength="55" class="box" 
+        value="<%= param3 %>" /> <br>
+        Max Review Count: <input id="param2" class="form-control" type="text" maxlength="55" class="box" 
+        value="<%= param4 %>" /> <br>
       <input class="btn btn-default" type="submit" class="submit" value="SUBMIT" />
      </form>
 
@@ -195,19 +201,11 @@
 
         // Add a circle.
         marker.append("svg:circle")
-          .attr("r", 5)
+            .attr("r", 15)
             .attr("cx", circle_x)
             .attr("cy", circle_y)
-            .attr("fill", function(d){
-              if (d.stars >= 4)
-                return 'yellow';
-              else if (d.stars >= 3)
-                return 'blue';
-              else if (d.stars >= 2)
-                return 'purple';
-              else (d.stars >= 1)
-                return 'red';
-            });
+            .attr("fill", 'brown');
+            
         // For each marker, apply a function
         marker.each(function (d){
 
